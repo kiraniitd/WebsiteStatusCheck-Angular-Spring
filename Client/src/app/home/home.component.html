@@ -1,0 +1,24 @@
+
+<div class="card-body" style="display:flex; align-items:center; justify-content:center; height:100%">      
+        <header>
+            <div class="ui-helper-clearfix"  style="display:flex; align-items:center; justify-content:center; height:100%">
+                <span class="ui-panel-title"><h1>Website Status</h1></span>   
+            </div>
+        </header>
+</div>     
+
+<div>
+    <span class="ui-panel-title"><h2>Amazon Status</h2></span>  
+    <tbody>
+        <pre><p>{{amazonStatusResponse | json}}</p></pre>
+    </tbody>
+    <span class="ui-panel-title"><h2>Google Status</h2></span>  
+    <tbody>
+        <pre><p>{{googleStatusResponse | json}}</p></pre>
+    </tbody>
+    <span class="ui-panel-title"><h2>All Status</h2></span>  
+    <tbody>
+        <pre><p>{{allStatusResponse | json}}</p></pre>
+    </tbody>
+</div>
+    
