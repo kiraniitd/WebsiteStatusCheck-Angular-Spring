@@ -13,7 +13,7 @@ Client (Angular)
 Server (Java/Spring Boot)
 =========================
 - Download/Clone Server folder
-- Install JDK, Maven and set environemt variables
+- Install JDK, Maven and set environment variables
 - Navigate to project directory
 - mvn install / mvn clean install
 - mvn spring-boot:run
