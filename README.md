@@ -1,4 +1,4 @@
-# WebsiteStatusCheck-Angular-Spring
+# WebsiteStatusCheck-Angular-Spring Boot
 Fetch new data every minute to check Website Status using Angular and Spring Boot
 
 Client (Angular)
